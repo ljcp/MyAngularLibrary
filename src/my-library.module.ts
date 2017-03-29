@@ -1,16 +1,20 @@
 import { NgModule } from '@angular/core';
 
 import { MyNotificationComponent }   from './components/my-notification.component';
+import { LoginService }   from './components/login.service';
+
 
 @NgModule({
     imports: [
 
     ],
     exports: [
-            MyNotificationComponent
+            MyNotificationComponent,
+            LoginService
     ],
     declarations: [
-            MyNotificationComponent
+            MyNotificationComponent,
+            LoginService
         ],
     providers: [
 
