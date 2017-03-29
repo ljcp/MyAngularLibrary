@@ -1,15 +1,11 @@
 {
-  "name": "My Angular Library",
+  "name": "test-dep",
   "version": "0.1.11",
   "description": "My Angular Library sample project",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "gulp build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lucasbauche/MyAngularLibrary.git"
   },
   "keywords": [
     "Angular",
